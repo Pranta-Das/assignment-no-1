@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header part start*/
+.header {
+    background-image: url(./image/donation13.jpg);
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+
+
+.head-center {
+    margin: auto;
+
+    text-align: center;
+
+    color: white;
+
+}
+
+.head-center h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.head-center p {
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    line-height: -2px;
+}
+
+.head-center a {
+    padding: 20px 20px;
+    background-color: coral;
+    text-decoration: none;
+    border-radius: 15px;
+    color: white;
+}
+
+/*header part end*/
+
+/*donate part start*/
+
+
+.donate {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.donate h1 {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.donate p {
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    line-height: -2px;
+    text-align: center;
+}
+
+.donate-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.donate a {
+    padding: 40px 30px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 30px;
+    text-decoration: none;
+    background-color: rgb(233, 227, 227);
+    color: rgba(0, 0, 0, 0.517);
+
+}
+
+span {
+    padding: 40px 30px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 30px;
+    text-decoration: none;
+    background-color: rgb(241, 167, 167);
+    color: white;
+    border: 2px solid red;
+
+}
+
+.form-part {
+    width: 700px;
+    margin: auto;
+}
+
+.form-part input {
+    height: 50px;
+    width: 100%;
+    color: #7e8287;
+    font-size: 16px;
+    text-align: center;
+    background: none;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+}
+
+.button button {
+    color: #0b1016;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: #cfc91d;
+    padding: 17px 50px;
+    display: inline-block;
+    text-transform: uppercase;
+    border: none;
+}
+
+/*donate part end*/
+
+/*donate-plane part start*/
+.donate-type {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.donate-type h3 {
+    font-size: 25px;
+    
+    
+    margin-bottom: 10px;
+
+}
+.donate-type p{
+    text-align: left;
+    margin-bottom: 10px;
+    letter-spacing: 0;
+}
+.donate-type img{
+    margin: 10px 0;
+}
+.dt-1 {
+    background-color: aqua;
+    width: 25%;
+    margin: 0 15px;
+    padding: 50px 30px;
+    border-radius: 10px;
+}
+
+.dt-2 {
+    background-color: chartreuse;
+    width: 25%;
+    padding: 50px 30px;
+    margin: 0 15px;
+    border-radius: 10px;
+}
+
+.dt-3 {
+    background-color: darkcyan;
+    width: 25%;
+    padding: 50px 30px;
+    margin: 0 15px;
+    border-radius: 10px;
+}
+
+/*donate-plane part end*/
+
+/*contact part start*/
+.cf-1{
+    padding: 80px 300px;
+    background-color: #cfc91d8f;
+    
+
+}
+.cf-1 input{
+    height: 20px;
+    background-color: #7e82879a;
+    color: #7e8287;
+    font-size: 16px;
+    
+    padding: 10px 15px;
+    border: none;
+    
+}
+label{
+
+    position: relative;
+    
+   
+    
+}
+.cf-1 input{
+    
+    background-color: #7e82879a;
+    color: #7e8287;
+   width: 400px;
+    
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.cf-1 button{
+   
+    background-color: #1809e9ce;
+    color: #7e8287;
+    width: 150px;
+    border-radius: 0 5px 5px 0;
+    
+    padding: 15px;
+    border: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+
+}
+.contact-from{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+/*contact part end*/
+
