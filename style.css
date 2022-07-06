@@ -209,6 +209,27 @@ span {
 }
 
 /*donate-plane part end*/
+.work-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.wp-1{
+    width: 20%;
+    
+}
+.wp-1 img{
+    width: 250px;
+    height: 250px;
+}
+
+/*work prat start*/
+
+
+/*work prat end*/
+
+
 
 /*contact part start*/
 .contact{
