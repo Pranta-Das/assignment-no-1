@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 
@@ -20,7 +21,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 
@@ -43,18 +44,19 @@ body {
 }
 
 .head-center p {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     letter-spacing: 2px;
-    font-size: 15px;
-    line-height: -2px;
+    font-size: 16px;
+    line-height: 25px;
 }
 
 .head-center a {
     padding: 20px 20px;
-    background-color: coral;
+    background-color: rgba(238, 75, 75, 0.987);
     text-decoration: none;
     border-radius: 15px;
     color: white;
+
 }
 
 /*header part end*/
@@ -64,11 +66,12 @@ body {
 
 .donate {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
+    
 }
 
 .donate h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 20px;
@@ -88,6 +91,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 
 }
 
@@ -98,7 +102,7 @@ body {
     font-weight: 700;
     margin-left: 30px;
     text-decoration: none;
-    background-color: rgb(233, 227, 227);
+    background-color: rgb(246, 246, 246);
     color: rgba(0, 0, 0, 0.517);
 
 }
@@ -124,13 +128,13 @@ span {
 .form-part input {
     height: 50px;
     width: 100%;
-    color: #7e8287;
+    color: #fcfcfc;
     font-size: 16px;
     text-align: center;
     background: none;
     margin-bottom: 30px;
     border: none;
-    border-bottom: 1px solid #7e8287;
+    border-bottom: 1px solid #ced2d8;
 }
 
 .button {
@@ -139,19 +143,21 @@ span {
 }
 
 .button button {
-    color: #0b1016;
-    font-size: 14px;
-    font-weight: 800;
-    background-color: #cfc91d;
-    padding: 17px 50px;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
     display: inline-block;
-    text-transform: uppercase;
     border: none;
+    padding: 20px 20px;
+    background-color: rgba(238, 75, 75, 0.987);
 }
 
 /*donate part end*/
 
 /*donate-plane part start*/
+
+
 .donate-type {
     display: flex;
     width: 100%;
@@ -162,21 +168,24 @@ span {
 
 .donate-type h3 {
     font-size: 25px;
-    
-    
+
+
     margin-bottom: 10px;
 
 }
-.donate-type p{
+
+.donate-type p {
     text-align: left;
     margin-bottom: 10px;
     letter-spacing: 0;
 }
-.donate-type img{
+
+.donate-type img {
     margin: 10px 0;
 }
+
 .dt-1 {
-    background-color: aqua;
+    background-color: rgba(217, 255, 255, 0.952);
     width: 25%;
     margin: 0 15px;
     padding: 50px 30px;
@@ -184,7 +193,7 @@ span {
 }
 
 .dt-2 {
-    background-color: chartreuse;
+    background-color: rgb(255, 220, 240);
     width: 25%;
     padding: 50px 30px;
     margin: 0 15px;
@@ -192,7 +201,7 @@ span {
 }
 
 .dt-3 {
-    background-color: darkcyan;
+    background-color: #ffeae8;
     width: 25%;
     padding: 50px 30px;
     margin: 0 15px;
@@ -202,46 +211,41 @@ span {
 /*donate-plane part end*/
 
 /*contact part start*/
-.cf-1{
+.contact{
+    margin-bottom: 0;
+}
+.cf-1 {
     padding: 80px 300px;
-    background-color: #cfc91d8f;
-    
+    background-color: #ffeae8;
+
 
 }
-.cf-1 input{
-    height: 20px;
-    background-color: #7e82879a;
-    color: #7e8287;
-    font-size: 16px;
-    
-    padding: 10px 15px;
-    border: none;
-    
-}
-label{
+
+label {
 
     position: relative;
-    
-   
-    
+
+
+
 }
-.cf-1 input{
-    
-    background-color: #7e82879a;
+
+.cf-1 input {
+
+    background-color: #d1d5d9;
     color: #7e8287;
-   width: 400px;
-    
+    width: 400px;
     padding: 15px;
     border: none;
     border-radius: 5px;
 }
-.cf-1 button{
-   
-    background-color: #1809e9ce;
-    color: #7e8287;
+
+.cf-1 button {
+
+    background-color: rgba(255, 72, 72, 0.987);
+    color: white;
     width: 150px;
     border-radius: 0 5px 5px 0;
-    
+    text-align: center;
     padding: 15px;
     border: none;
     position: absolute;
@@ -251,12 +255,43 @@ label{
 
 
 }
-.contact-from{
+
+.contact-from {
     display: flex;
-    
+
     align-items: center;
     justify-content: center;
-    
+
 }
+
 /*contact part end*/
 
+/*footer part*/
+#footer {
+    height: 160px;
+    background-color: black;
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.footer-part h2 {
+    font-size: 30px;
+    color: coral;
+
+    text-align: center;
+
+
+}
+
+.footer-part p {
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 10px;
+
+
+}
